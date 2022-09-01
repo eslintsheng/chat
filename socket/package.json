@@ -1,0 +1,26 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eiows": "^4.0.1",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.4.1",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.4.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
